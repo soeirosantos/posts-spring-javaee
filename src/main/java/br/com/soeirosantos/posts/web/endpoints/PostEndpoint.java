@@ -28,7 +28,6 @@ public class PostEndpoint {
         this.postService = postService;
     }
 
-
     @GET
     @Path("/{id:[0-9][0-9]*}")
     public Response get(@PathParam("id") Long id) {
