@@ -32,6 +32,5 @@ dependencies {
     compile "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5"
     runtime('org.springframework.boot:spring-boot-devtools')
     runtime('com.h2database:h2')
-    compileOnly('org.springframework.boot:spring-boot-configuration-processor')
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
