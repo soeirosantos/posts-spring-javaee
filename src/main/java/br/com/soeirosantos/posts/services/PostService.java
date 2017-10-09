@@ -21,8 +21,8 @@ public class PostService {
     }
 
     public Optional<Post> findOne(Long id) {
-        Post Post = entityManager.find(Post.class, id);
-        return Optional.ofNullable(Post);
+        Post post = entityManager.find(Post.class, id);
+        return Optional.ofNullable(post);
     }
 
     @Transactional
